@@ -20,10 +20,37 @@
     <div class="container">
       <!-- header -->
       <section class="text-white text-center py-5">
-        <h1 class="py-4">Todo List App</h1>
+        <h1 class="py-4">Pomo domo Timer</h1>
         <form action="" class="search">
           <input type="text" name="search" placeholder="Search" class="form-control m-auto text-white" />
         </form>
+      </section>
+      <!-- timer -->
+      <form action="" class="timeValue text-center">
+        <input type="number" value="" name="timeValue" placeholder="add minutes" class="form-control m-auto text-nlack" />
+      </form>
+
+      <section class="bg-dark text-white text-center countdown">
+        <h1 class="timer-clock">
+          00 : 00
+        </h1>
+      </section>
+      <!-- start -->
+      <section class="starting text-center py-3">
+        
+        <button type="button" class="btn btn-success">Start</button>
+      </section>
+      <!-- buttons -->
+      <section class="container ThreeButtons text-center py-3 d-none" >
+        <button class="bg-warning">
+          <i class="bi bi-pause-circle stopTimer"></i>
+        </button>
+        <button class="bg-warning playTimer">
+          <i class="bi bi-play-circle"></i>
+        </button>
+        <button class="bg-warning resetTimer">
+          <i class="bi bi-stop-circle resettimer"></i>
+        </button>
       </section>
 
       <!-- todo items -->
@@ -32,7 +59,7 @@
 
       </ul>
       <form action="" class="add text-center py-5">
-        <label for="" class="text-white fs-4 py-2">Add items...</label>
+        <label for="" class="text-white fs-4 py-2">Add your Tasks</label>
         <input type="text" placeholder="" name="add" class=" form-control text-white" />
       </form>
     </div>

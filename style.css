@@ -20,3 +20,22 @@ input[type=text]:focus {
 .filtered { 
     display: none !important;
 }
+h1.timer-clock {
+    padding: 18px;
+}
+section.container.text-center {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px -11px;
+}
+button.bg-warning {
+    padding: 9px;
+    border-radius: 5px;
+}
+
+section.bg-dark.text-white.text-center.countdown {
+    border-radius: 5px;
+}
+input.form-control.m-auto.text-nlack {
+    width: 100px;
+}
